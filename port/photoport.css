@@ -1,0 +1,184 @@
+body{
+    background-color: black;
+    overflow-x: hidden;
+}
+.headerpage{
+    width: 100%;
+    height: 100vh;
+    
+}
+
+.headerpage .container{
+    width: 80%;
+    height: auto;
+    margin: 10%;
+    display: flex;
+    margin: 25% 10% 10% 10%;
+}
+
+.headerpage .container .image{
+    width: 30%;
+    height: auto;
+}
+
+.headerpage .container .image img{
+    float: right;
+    margin-right: 30px;
+    border-radius: 50%;
+}
+
+.headerpage .container .msg{
+    width: 60%;
+    background-color: deepskyblue;
+    height: 150px;
+    border-radius: 25px;
+    text-align: center;
+    margin-top: 19px;
+}
+
+
+.headerpage .container .msg h3{
+    color: white;
+    font-size: 43px;
+    margin: 18px 0px 0px 0px;
+}
+
+.headerpage .container .msg h3 span{
+    color: rgb(255, 0, 0);
+}
+
+.headerpage .container .msg p{
+    color: black;
+    font-size: 30px;
+    margin: 10px;
+}
+
+.headerpage .container .msg p span{
+    font-weight: bold;
+}
+
+
+
+
+
+
+
+
+
+
+.skillpage{
+    color: rgb(0, 0, 0);
+    width: 100%;
+    height: 100vh;
+}
+
+.skillpage .header{
+    width: 100%;
+    height: auto;
+    text-align: center;
+}
+
+.skillpage .header h3{
+    font-size: 60px;
+    color: white;
+}
+
+.skillpage .showskill{
+    width: 80%;
+    height: auto;
+    margin: 10%;
+    background-color: deepskyblue;
+    border-radius: 20px;
+    
+}
+
+.skillpage .showskill .skilldiv{
+    display: flex;
+    text-align: center;
+    padding: 34px;
+}
+
+.skillpage .showskill .skilldiv h3{
+    font-size: 28px;
+}
+
+.skillpage .showskill .skilldiv h3 span{
+    color: red;
+    font-weight: bold;
+    font-size: 35px;
+}
+
+
+.projectshow{
+    width: 90%;
+    height: auto;
+    margin: 5%;
+    
+}
+
+.projectshow .header{
+    width: 100%;
+    height: auto;
+    text-align: center;
+    margin-bottom: 10%;
+}
+
+.projectshow .header h3{
+    color: white;
+    font-size: 60px;
+    font-weight: bold;
+}
+
+.projectshow .projectdiv{
+    background-color: deepskyblue;
+    border-radius: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 70px;
+}
+
+.projectshow .projectdiv img{
+    width: 46%;
+    margin: 15px;
+    border-radius: 10px;
+}
+
+
+
+
+
+
+
+
+
+.contact{
+    width: 100%;
+    height: auto;
+    margin-top: 30vh;
+}
+
+.contact .header{
+    text-align: center;
+    
+}
+
+.contact .header h3{
+    font-size: 60px;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+}
+
+.contact .con-box{
+    width: 80%;
+    margin: 10%;
+    background-color: deepskyblue;
+    text-align: center;
+    border-radius: 20px;
+    height: 43vh;
+    padding-top: 80px;
+}
+
+.contact .con-box h1{
+    color: rgb(43, 43, 43);
+    
+}
