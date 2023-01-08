@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="portfolio.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mahbubul Islam Himel</title>
+</head>
+<body >
+    <div class="partone">
+        <div class="partone-one" >
+            <div class="class">
+            <p>Hey,</p>
+            <h3> <span>I'm</span> Mahbubul Islam Himel</h3>
+            <h4><span>and</span> I'm a Graphic Designer.</h4>
+            <a href=""><button>Download CV</button></a>
+            </div>
+        </div>
+        <div class="partone-two" style="width: 50%; height: 100vh;">
+            <img src="himu.jpg" alt="">
+        </div>
+    </div>
+
+
+
+
+
+
+    <div class="parttwo">
+        <div class="heading">
+            <h3>Skills</h3>
+        </div>
+        <div class="subject">
+            <div class="box">
+                <h2>HTML</h2>
+                <div class="progrssline"><span style="width: 90%;"></span></div>
+            </div>
+            <div class="box">
+                <h2>CSS</h2>
+                <div class="progrssline"><span style="width: 70%;"></span></div>
+            </div>
+            <div class="box">
+                <h2>PHOTOSHOP</h2>
+                <div class="progrssline"><span style="width: 80%;"></span></div>
+            </div><div class="box">
+                <h2>ILLUSTRATOR</h2>
+                <div class="progrssline"><span style="width: 50%;"></span></div>
+            </div>
+            <div class="box">
+                <h2>VIDEO EDITING</h2>
+                <div class="progrssline"><span style="width: 20%;"></span></div>
+             </div>
+            <div class="box">
+                <h2>JAVASCRIPT</h2>
+                <div class="progrssline"><span style="width: 80%;"></span></div>
+            </div>
+        <div class="box">
+            <h2>PHP</h2>
+            <div class="progrssline"><span style="width: 90%;"></span></div>
+        </div>
+        <div class="box">
+           <h2>REACT.JS</h2>
+           <div class="progrssline"><span style="width: 20%;"></span></div>
+        </div>
+        <div class="box">
+            <h2>Mysql</h2>
+            <div class="progrssline"><span style="width: 40%;"></span></div>
+         </div>
+
+        </div>
+        <div id="load-more">load more</div>
+    </div>
+
+
+
+
+
+
+    <div class="patrthree">
+        <div class="heading">
+            <h3>Projects</h3>
+        </div>
+
+        <div class="subjects">
+            <div class="divone">
+                <img src="SM postt.png" alt="image">
+                <h3>Social media Ads design</h3>
+                <a href=""><button>View more</button></a>
+            </div>
+            <div class="divone">
+                <img src="post.png" alt="image">
+                <h3> Social media post design</h3>
+                <a href=""><button>View more</button></a>
+            </div>
+            <div class="divone">
+                <img src="beforee.png" alt="image">
+                <h3>Photo retouch</h3>
+                <a href=""><button>View more</button></a>
+            </div>
+            <div class="divone">
+                <img src="Before.png" alt="image">
+                <h3>Background changing</h3>
+                <a href=""><button>View more</button></a>
+            </div>
+            <div class="divone">
+                <img src="befa.png" alt="image">
+                <h3>Background removal</h3>
+                <a href=""><button>View more</button></a>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+    <div class="partfour">
+        <div class="heading">
+            <h3>Contact </h3>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+    <script>
+        let loadMoreBtn = document.querySelector('#load-more');
+        let currentItem = 3;
+
+        loadMoreBtn.onclick = () =>{
+            let boxes = [...document.querySelectorAll('.parttwo .subject .box')];
+            for (var i = currentItem; i < currentItem + 3; i++){
+                boxes[i].style.display = 'inline-block';
+            }
+            currentItem += 3;
+
+            if(currentItem >= boxes.length){
+                loadMoreBtn.style.display = 'none';
+            }
+        }
+    </script>
+</body>
+</html>
