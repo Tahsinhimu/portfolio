@@ -1,0 +1,343 @@
+.first{
+    width: 100%;
+    height: auto;
+}
+.first .header{
+    width: 80%;
+    margin: 0 10% 0 10%;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.first .header h3{
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.first .header .nav{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.first .header .nav a{
+    text-decoration: none;
+    color: #000;
+    font-size: 18px;
+}
+
+.first .header .nav a:hover{
+    color: rgb(0, 0, 0);
+    background: transparent;
+    border: 3px solid rgb(0, 0, 0);
+    padding: 7px;
+    border-radius: 5px;
+}
+
+.first .content{
+    width: 100%;
+    height: 100%;
+
+}
+.first .content img{
+    width: 100%;
+    height: auto;
+}
+
+.first .content .categories{
+    width: 100%;
+    height: 60px;
+    background-color: #e0dddd;
+    margin-top: 10px;
+    
+}
+
+.first .content .categories .line{
+    width: 80%;
+    margin: 0 10% 0 10%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.first .content .categories .line a{
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #000;
+}
+.first .content .categories .line a:hover{
+    color: red;
+}
+.first .content .messege{
+    width: 80%;
+    height: 140px;
+    background-color: rgb(241, 221, 193);
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    margin: 5px 10% 0 10%;
+}
+.first .content .messege h3{
+    color: rgb(207, 82, 82);
+    font-weight: bold;
+    font-size: 45px;
+}
+
+.second{
+    width: 100%;
+    height: auto;
+}
+.second .content{
+    width: 80%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 10px 10% 0 10%;
+    justify-content: space-between;
+}
+
+.second .content .img{
+    width: 200px;
+    height: 230px;
+    margin-top: 15px;
+    
+  
+}
+
+.second .content img{
+    width: 100%;
+    height: 100%;
+    vertical-align: center;
+}
+
+.second .categories{
+    width: 80%;
+    height: auto;
+    margin: 70px 10% 0 10%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.second .categories .img{
+    width: 345px;
+    height: 365px;
+}
+
+.second .categories .img img{
+    width: 100%;
+    height: 100%;
+}
+
+
+
+.third{
+    width: 100%;
+    height: auto;
+}
+
+.third .content{
+    width: 80%;
+    height: auto;
+    margin: 60px 10% 0 10%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.third .content a{
+    text-decoration: none;
+}
+.third .content .box{
+    width: 200px;
+    height: 300px;
+    margin-top: 15px;
+    
+  
+  
+}
+
+.third .content .box img{
+    width: 100%;
+    height: 70%;
+    
+}
+.third .content a .box p{
+    font-size: 19px;
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+
+}
+.third .content a .box h3{
+    font-size: 18px;
+    color: #000;
+    font-weight: normal;
+}
+
+
+
+/*
+
+
+product desscription.html
+
+
+*/
+
+
+.first_p .description{
+    width: 80%;
+    height: 80%;
+    margin: 1% 10% 0 10%;
+    display: flex;
+   
+}
+.first_p .description .image{
+    width: 50%;
+    height: 100%;
+    
+}
+
+.first_p .description .image img{
+    width: 90%;
+    height: 90%;
+    margin: 5%;
+}
+
+.first_p .description .p_description{
+    width: 50%;
+    height: 100%;
+    display: grid;
+}
+
+.first_p .description .p_description h3{
+    font-size: 23px;
+    font-weight: normal;
+    font-family: serif;
+}
+.first_p .description .p_description p{
+    font-size: 25px;
+    font-weight: bold;
+    margin-top: -10px;
+}
+
+.first_p .description .p_description form select{
+    width: 70px;
+    height: 30px;
+    margin-bottom: 9px;
+
+}
+.first_p .description .p_description form .v{
+    width: 140px;
+    height: 28px;
+   
+
+}
+.first_p .description .p_description form .b{
+    width: 160px;
+    height: 40px;
+    background-color: #000;
+    color: white;
+    margin-left: 20px;
+    border-radius: 2px;
+}
+.first_p .description .p_description .p{
+    margin-top: 20px;
+    font-weight: normal;
+    font-size: 17px;
+}
+.first_p .description .p_description .D{
+    color: black;
+    font-weight: bold;
+    font-size: 17px;
+    opacity: 80%;
+    margin-top: 3px;
+}
+
+.first_p .description .p_description  table{
+    width: 100%;
+    height: auto;
+    text-align: center;
+    
+    
+    
+}
+
+.first_p .description .p_description  table tr{
+    padding: 10px;
+    background-color: rgba(128, 128, 128, 0.151);
+}
+
+.first_p .description .p_description  table td{
+    padding: 3px;
+    
+}
+.first_p .description .p_description  table th{
+    padding: 3px;
+   
+}
+
+.first_p .description .p_description  table thead{
+    font-weight: bold;
+}
+
+.first_p .description .p_description  table tbody{
+    font-weight: normal;
+}
+
+.second{
+    width: 100%;
+    height: auto;
+}
+.second .heading{
+    width: 80%;
+    margin: 0 10% 0 10%;
+}
+
+
+
+.second .content .con{
+    width: 100%;
+    height: auto;
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+.second .content .con a{
+    text-decoration: none;
+}
+.second .content .con .box{
+    width: 200px;
+    height: 300px;
+    margin: 6px;
+    
+  
+  
+}
+
+.second .content .con .box img{
+    width: 100%;
+    height: 70%;
+    
+}
+.second .content .con a .box p{
+    font-size: 19px;
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+
+}
+.second .content .con a .box h3{
+    font-size: 18px;
+    color: #000;
+    font-weight: normal;
+}
