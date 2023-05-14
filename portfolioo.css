@@ -1,0 +1,307 @@
+body{
+    background-color: black;
+    color: white;
+}
+
+.text{
+    width: 90%;
+    height: auto;
+    margin: 0 auto;
+    
+}
+
+.text h3{
+    font-size: 120px;
+    padding-top: 0px;
+    margin-bottom: 0;
+    font-weight: bold;
+    margin-top: 90px;
+}
+
+.text h2{
+    font-size: 30px;
+    font-weight: normal;
+    margin-top: 10px;
+}
+
+.container{
+    width: 90%;
+    height: auto;
+    margin: 0 auto;
+    display: flex;
+
+}
+
+.container .image{
+    width: 50%;
+    height: auto;
+}
+
+
+ .container .image img{
+    width: 80%;
+    height: auto;
+    margin: 0 auto;
+}
+
+ .container  .info{
+    width: 50%;
+}
+.container  .info h3{
+    font-size: 30px;
+    font-weight: normal;
+    margin-top: 20%;
+    
+}
+
+ .container  .info a{
+    color: white;
+    font-weight: normal;
+    font-size: 30px;
+}
+.container  .info a:hover{
+    color: brown;
+    transition: .7s ease;
+}
+
+
+/*-------*/
+
+
+
+.featured{
+    width: 90%;
+    height: auto;
+    margin: 150px auto;
+}
+.featured .heading{
+    width: 100%;
+    height: auto;
+    margin: 0px auto;
+}
+.featured .heading h3{
+    font-size: 70px;
+    padding-top: 0px;
+    margin-bottom: 0;
+    font-weight: normal;
+}
+
+
+
+
+
+
+
+
+/*-------*/
+
+
+
+
+
+
+.work-slide{
+    width: 90%;
+    height: auto;
+    margin: 150px auto;
+}
+
+.work-slide .heading{
+    width: 100%;
+    height: auto;
+    margin: 0px auto;
+}
+.work-slide .heading h3{
+    font-size: 70px;
+    padding-top: 0px;
+    margin-bottom: 0;
+    font-weight: normal;
+   
+   
+
+}
+
+
+.work-slide .project{
+    width: 100%;
+    margin: 0px auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.work-slide .project a{
+    text-decoration: none;
+    width: 30%;
+    height: 360px;
+    margin-right: 3%;
+    margin-top: 70px;
+}
+.work-slide .project .box{
+    width: 100%;
+    height: 300px;
+    text-decoration: none;
+}
+
+.work-slide .project .box:hover{
+    margin-top: -30px;
+    transition: 1s ease;
+}
+
+.work-slide .project .box img{
+    width: 100%;
+    height: 100%;
+}
+.work-slide .project .box img:hover{
+    opacity: 70%;
+}
+
+.work-slide .project .box h2{
+    font-size: 30px;
+    font-weight: normal;
+    color: white;
+    
+}
+
+
+
+
+
+
+
+
+
+/*-------*/
+
+
+
+
+
+
+
+.contact{
+    width: 90%;
+    height: auto;
+    margin: 150px auto;
+}
+.contact .heading{
+    width: 100%;
+    height: auto;
+    margin: 0px auto;
+}
+.contact .heading h3{
+    font-size: 70px;
+    padding-top: 0px;
+    margin-bottom: 0;
+    font-weight: normal;
+   
+}
+
+.contact .content{
+    width: 100%;
+    height: auto;
+    display: flex;
+    margin-top: 100px;
+}
+.contact .content .text{
+    width: 50%;
+    height: auto;
+    float: left;
+}
+.contact .content .text h3{
+    font-size: 33px;
+    font-weight: normal;
+    margin-top: 45px;
+    margin-bottom: 8px;
+}
+.contact .content .text a{
+    color: white;
+    font-size: 25px;
+    text-decoration: none;
+}
+
+.contact .content .text a:hover{
+    margin-right: -50px;
+    color: brown;
+    transition: 1s ease;
+}
+.contact .content .text p{
+    color: white;
+    font-size: 25px;
+    text-decoration: none;
+}
+.contact .content .image{
+    width: 50%;
+    height: auto;
+    float: right;
+}
+.contact .content .image img{
+    width: 80%;
+    height: auto;
+    float: right;
+}
+
+
+
+
+
+
+
+
+
+
+
+/*-----graphicdesign.html-----*/
+
+
+.back{
+    width: 100%;
+    height: auto;
+}
+
+.back a{
+    background-color: rgb(161, 18, 18);
+    color: white;
+    text-decoration: none;
+    font-size: 30px;
+    font-weight: normal;
+
+}
+
+
+.design{
+    width: 90%;
+    height: auto;
+    margin: 0px auto;
+}
+.design .heading{
+    width: 100%;
+    height: auto;
+    margin: 0px auto;
+}
+.design .heading h3{
+    font-size: 70px;
+    padding-top: 0px;
+    margin-bottom: 0;
+    font-weight: normal;
+    margin-top: 35px;
+   
+}
+.design .content{
+    width: 100%;
+    height: auto;
+    margin: 70px auto;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+.design .content .row{
+    width: 30%;
+    margin: 1%;
+}
+.design .content .row img{
+    width: 100%;
+    height: auto;
+    margin: 1%;
+
+}
+
