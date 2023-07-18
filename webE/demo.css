@@ -40,7 +40,7 @@
     height: 80vh;
     background: #838383 url(homepic.jpg);
     background-size: cover;
-    background-blend-mode: normal;
+    background-blend-mode: multiply;
 
 
 }
