@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="portfolio.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mahbubul Islam Himel</title>
+</head>
+<body >
+    <div class="partone">
+        <div class="partone-one" >
+            <div class="class">
+            <p>Hey,</p>
+            <h3> <span>I'm</span> Mahbubul Islam Himel</h3>
+            <h4><span>and</span> I'm a Video Editor.</h4>
+            <a href="Content.pdf"><button>Download CV</button></a>
+            </div>
+        </div>
+        <div class="partone-two" style="width: 50%; height: 100vh;">
+            <img src="himu.jpg" alt="">
+        </div>
+    </div>
+
+
+
+
+
+
+    <div class="parttwo">
+        <div class="heading">
+            <h3>Skills</h3>
+        </div>
+        <div class="subject">
+            <div class="box">
+                <h2>HTML</h2>
+                <div class="progrssline"><span style="width: 95%;"></span></div>
+            </div>
+            <div class="box">
+                <h2>CSS</h2>
+                <div class="progrssline"><span style="width: 80%;"></span></div>
+            </div>
+            <div class="box">
+                <h2>PHOTOSHOP</h2>
+                <div class="progrssline"><span style="width: 85%;"></span></div>
+            </div><div class="box">
+                <h2>ILLUSTRATOR</h2>
+                <div class="progrssline"><span style="width: 70%;"></span></div>
+            </div>
+            <div class="box">
+                <h2>VIDEO EDITING</h2>
+                <div class="progrssline"><span style="width: 95%;"></span></div>
+             </div>
+            <div class="box">
+                <h2>JAVASCRIPT</h2>
+                <div class="progrssline"><span style="width: 80%;"></span></div>
+            </div>
+        <div class="box">
+            <h2>PHP</h2>
+            <div class="progrssline"><span style="width: 90%;"></span></div>
+        </div>
+        <div class="box">
+           <h2>REACT.JS</h2>
+           <div class="progrssline"><span style="width: 90%;"></span></div>
+        </div>
+        <div class="box">
+            <h2>Mysql</h2>
+            <div class="progrssline"><span style="width: 70%;"></span></div>
+         </div>
+
+        </div>
+        <div id="load-more">load more</div>
+    </div>
+
+
+
+
+
+
+    <div class="patrthree">
+        <div class="heading">
+            <h3>Projects</h3>
+        </div>
+
+        <div class="subjects">
+            <div class="divone">
+                <img src="THUMBNAIL-05.png" alt="image">
+                <h3>Graphic design</h3>
+                <a href="graphicdesign.html"><button>View more</button></a>
+            </div>
+            <div class="divone">
+                <video src="demo (1).mp4" controls></video>
+                <h3>Video Editing portfolio</h3>
+                <a href="video-portfolio.html"><button>View more</button></a>
+            </div>
+            <div class="divone" style="margin-top: 50px;">
+                <img src="graphic/web.png" alt="image">
+                <h3>Full Stack Web Development</h3>
+                <a href="webdev.html"><button>View more</button></a>
+            </div>
+           
+        </div>
+    </div>
+
+
+
+
+
+
+
+    <div class="partfour">
+        <div class="heading">
+            <h3>Contact Us</h3>
+        </div>
+        <div class="body">
+            <h3 style="padding-top: 50px;"><span>Email:</span>  tahsinhimu71@gmail.com</h3>
+            <h3><span>Mobile No:</span>  +880-1634331358</h3>
+            <h3><span>Linkedin:</span>  <a href="https://www.linkedin.com/in/mahbubul-isalm-himel-a239b41ba/">Mahbubul Islam Himel</a></h3>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+    <script>
+        let loadMoreBtn = document.querySelector('#load-more');
+        let currentItem = 3;
+
+        loadMoreBtn.onclick = () =>{
+            let boxes = [...document.querySelectorAll('.parttwo .subject .box')];
+            for (var i = currentItem; i < currentItem + 3; i++){
+                boxes[i].style.display = 'inline-block';
+            }
+            currentItem += 3;
+
+            if(currentItem >= boxes.length){
+                loadMoreBtn.style.display = 'none';
+            }
+        }
+    </script>
+</body>
+</html>

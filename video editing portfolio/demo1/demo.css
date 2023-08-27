@@ -1,0 +1,399 @@
+.header{
+    width: 100%;
+    height: 70px;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+}
+
+.header .one{
+    width: 60%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header .one a{
+    font-size: 18px;
+    text-decoration: none;
+    color: black;
+}
+.header .one .b i{
+    margin-left: -46px;
+    font-size: 18px;
+}
+.header .one i{
+    font-size: 23px;
+}
+
+
+
+
+
+
+
+/* ---page-one--- */
+
+
+.page-one{
+    width: 100%;
+    height: 80vh;
+    background: #838383 url(homepic.jpg);
+    background-size: cover;
+    background-blend-mode: normal;
+
+
+}
+.page-one .dark{
+    
+    
+}
+.page-one .dark .content{
+    width: 60%;
+    height: auto;
+    text-align: center;
+    padding: 7% 20% 20% 20%;
+    
+    
+    
+}
+.page-one .dark .content h3{
+    color: white;
+    font-size: 55px;
+}
+.page-one .dark .content p{
+    color: white;
+    font-size: 24px;
+    margin-top: -35px;
+}
+.page-one .dark .content button{
+    background: transparent;
+    border: 1px solid white;
+    border-radius: 10px;
+    padding: 10px 20px;
+    font-size: 19px;
+    color: white;
+    animation: slide 0.7s ease-in-out ;
+}
+.page-one .dark .content button:hover{
+    background-color: white;
+    color: black;
+}
+
+@keyframes slide {
+    0%{
+        transform: skewX(53deg) translateX(300px);
+    }
+    100%{
+        transform: skew(0deg);
+    }
+}
+
+
+
+
+
+
+
+
+/*----showcase-----*/
+
+
+.showcase{
+    width: 80%;
+    height: auto;
+    margin: 50px auto;
+    display: flex;
+}
+.showcase .images-2{
+    width: 30%;
+    height: 500px;
+    margin: 5px;
+    background:  url(category\ \(2\).jpg);
+    background-size: cover;
+    background-position: top center;
+}
+.showcase .images-1{
+    width: 30%;
+    height: 500px;
+    margin: 5px;
+    background: url(category\ \(1\).jpg);
+    background-size: cover;
+}
+.showcase .images-3{
+    width: 30%;
+    height: 500px;
+    margin: 5px;
+    background:  url(category\ \(3\).jpg);
+    background-size: cover;
+    
+}
+.showcase .images-1 h3{
+    color: white;
+    font-size: 50px;
+    word-wrap: break-word;
+    background-color: rgba(0, 0, 0, 0.553);
+    text-align: center;
+    margin-top: 350px;
+}
+.showcase .images-2 h3{
+    color: white;
+    font-size: 50px;
+    word-wrap: break-word;
+    background-color: rgba(0, 0, 0, 0.553);
+    text-align: center;
+
+}
+.showcase .images-3 h3{
+    color: white;
+    font-size: 50px;
+    word-wrap: break-word;
+    background-color: rgba(0, 0, 0, 0.553);
+    text-align: center;
+    margin-top: 350px;
+}
+
+
+
+
+
+
+
+/* ---------about us-----*/
+
+
+.aboutusheading h3{
+    font-size: 35px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: underline;
+    margin-top: 100px;
+    margin-bottom: 120px;
+}
+
+.aboutus {
+    width: 80%;
+    height: auto;
+    margin: 50px auto;
+    display: flex;
+}
+
+
+
+.aboutus .images{
+    width: 48%;
+    height: 100%;
+    margin-right: 2%;
+}
+.aboutus .images img{
+    width: 100%;
+    height: 100%;
+}
+
+.aboutus .text{
+    width: 48%;
+    height: 100%;
+    margin-left: 2%;
+}
+.aboutus .text h3{
+    font-size: 35px;
+    font-weight: bold;
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+.aboutus .text p{
+    font-size: 19px;
+    font-weight: normal;
+    word-wrap: break-word;
+}
+.aboutus .text button{
+    margin-top: 70px;
+    border: 1px solid black;
+    background: transparent;
+    padding: 10px 20px;
+    border-radius: 10px;
+    font-size: 19px;
+}
+.aboutus .text button:hover{
+    background-color: #000000;
+    color: rgb(255, 255, 255);
+}
+
+ 
+
+
+
+/* ------product-display */
+
+.product-display{
+    width: 80%;
+    height: auto;
+    margin: 50px auto 20px auto;
+}
+
+.product-display .ports{
+    width: 60%;
+    margin: 30px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.product-display .ports button{
+    background: transparent;
+    border: 1px solid rgb(0, 0, 0);
+    padding: 10px 20px;
+    border-radius: 10px;
+    font-size: 20px;
+}
+.product-display .ports button:hover{
+    background-color: #000;
+    color: white;
+}
+.product-display .pd-row-1{
+    width: 100%;
+    height: auto;
+    display: flex;
+}
+.product-display .pd-row-1 .box{
+    width: 23%;
+    height: 350px;
+    margin: 2%;
+    text-align: center;
+    box-shadow: 0 1px 0 0px;
+    box-shadow: 3px 3px 9px -2px;
+    border-radius: 15px;
+}
+.product-display .pd-row-1 .box img{
+    width: 100%;
+    height: 80%;
+    object-fit: cover;
+    border-radius: 15px 15px 0px 0;
+
+}
+.product-display .pd-row-1 .box h3{
+    font-size: 24px;
+    font-weight: normal;
+    margin: 5px;
+}
+.product-display .pd-row-1 .box p{
+    font-size: 19px;
+    font-weight: bold;
+    margin: 5px;
+}
+
+
+
+
+/***blogs*******/
+
+
+.headline-last{
+    width: 100%;
+    height: auto;
+    margin-top: 120px;
+}
+.headline-last h3{
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+   
+}
+
+
+
+
+
+/*------content-blog*/
+
+.content-blog{
+    width: 80%;
+    height: auto;
+    display: flex;
+    margin: 50px auto;
+}
+.content-blog .div{
+    width: 48%;
+    height: auto;
+    margin-right: 2%;
+    display: flex;
+
+}
+.content-blog .div img{
+    width: 50%;
+    height: 350px;
+    margin-right: 17px;
+    object-fit: cover;
+}
+.content-blog .div h3{
+    word-wrap: break-word;
+    font-size: 27px;
+    font-weight: bold;
+    margin: 0;
+}
+.content-blog .div p{
+    font-size: 17px;
+    word-wrap: break-word;
+    font-weight: normal;
+    margin-top: 20px;
+}
+
+
+
+
+
+
+
+/*------footer*/
+
+.footer{
+    width: 100%;
+    height: 140px;
+    background: #e0e0e0;
+    margin-top: 160px;
+    display: inline-grid;
+    align-items: center;
+}
+.footer .content{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+
+    
+}
+.footer .row{
+    width: auto;
+    height: auto;
+    display: inline-grid;
+
+    
+}
+
+.footer .row h1{
+    font-size: 23px;
+    color: #555555;
+    margin: 10px 0;
+}
+.footer .row a{
+    text-decoration: none;
+    color: black;
+    word-wrap: break-word;
+    margin: 1px;
+
+}
+.footer .row a:hover{
+    color: red;
+
+}
+.footer .a{
+    text-decoration: none;
+    color: black;
+    word-wrap: break-word;
+    margin: 1px;
+    font-size: 14px;
+    text-align: center;
+    margin-top: 10px;
+
+
+}

@@ -1,0 +1,273 @@
+.partone{
+    display: flex;
+     width: 100%;
+      height: 100vh;
+}
+.partone .partone-one{
+    width: 50%; 
+    height: 100vh;
+}
+.partone .partone-one .class{
+    padding-top:120px;
+    width: 80%;
+    margin-left: 20%;
+}
+.partone .partone-one .class p{
+    font-size: 28px;
+    font-family: system-ui;
+}
+
+.partone .partone-one .class h3{
+    font-size: 40px;
+    color: rgb(77, 77, 190);
+    margin: 0px;
+}
+
+.partone .partone-one .class h3 span{
+    color: black;
+}
+
+.partone .partone-one .class h4{
+    font-size: 75px;
+    margin: 0px;
+    color: rgb(77, 77, 190);
+}
+
+.partone .partone-one .class h4 span{
+    font-size: 30px;
+    color: rgb(0, 0, 0);
+    
+}
+.partone .partone-one .class button{
+    width: 250px;
+    height: 48px;
+    border-radius: 23px;
+    background-color: orangered;
+    margin-top: 30px;
+    color: white;
+}
+
+.partone .partone-two{
+    width: 50%; 
+    height: 100vh;    
+}
+.partone .partone-two img{
+    width: 350px;
+    height: auto;
+    border-radius: 50%;
+    margin-top:170px;
+    margin-left: 120px;
+}
+
+@media (max-width: 700px) {
+    .partone{
+        display: grid;
+         width: 100%;
+          height: auto;
+    }
+    .partone .partone-one{
+        width: 100%; 
+        height: auto;
+    }
+    .partone .partone-one .class{
+        padding-top: 0;
+        width: 100%;
+        
+    }
+    .partone .partone-two{
+        width: 100%; 
+        height: auto;    
+    }
+}
+
+
+
+.parttwo{
+    width: 100%;
+    height: auto;
+}
+
+.parttwo .heading{
+    width: 100%;
+    height: auto;
+    text-align: center;
+}
+
+.parttwo .heading h3{
+    font-size: 40px;
+}
+
+.parttwo .subject{
+    width: 80%;
+    height: auto;
+    margin-left: 7%;
+    margin-right: 13%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.parttwo .subject .box{
+    width: 260px;
+    height: 150px;
+    box-shadow: 3px 4px 9px 0px;
+    text-align: center;
+    margin-left: 90px;
+    margin-top: 50px;
+    border-radius: 20px;
+    display: none;
+}
+.parttwo .subject .box:nth-child(1),
+.parttwo .subject .box:nth-child(2),
+.parttwo .subject .box:nth-child(3){
+    display: inline-block;
+}
+
+.parttwo .subject .box h2{
+    padding-top: 10px;
+    font-size: 25px;
+}
+
+.parttwo .subject .box .progrssline {
+    width: 90%;
+    height: 14px;
+    border-radius: 10px;
+    background-color: #f0f0f0;
+    margin: 5%;
+    margin-top: 10px;
+    position: relative;
+}
+
+.parttwo .subject .box .progrssline span {
+    background-color: rgb(77, 77, 190);
+    width: 80%;
+    height: 100%;
+    position: absolute;
+    border-radius: 20px;
+    margin-left: -113px;
+}
+
+#load-more {
+    margin-top: 50px;
+    text-align: center;
+    margin-left: 550px;
+    font-size: 22px;
+    padding-top: 12px;
+    font-weight: bold;
+    display: inline-block;
+    width: 219px;
+    height: 34px;
+    border-radius: 8px;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    cursor: pointer;
+}
+
+
+.patrthree{
+    width: 100%;
+    height: auto;
+}
+
+.patrthree .heading{
+    width: 100%;
+    height: auto;
+    margin-top: 200px;
+}
+
+.patrthree .heading h3{
+    text-align: center;
+    font-size: 50px;
+}
+
+.patrthree .subjects {
+    width: 90%;
+    height: auto;
+    margin: 5%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.patrthree .subjects .divone{
+    max-width: 580px;
+    max-height: auto;
+   text-align: center;
+   box-shadow: 6px 6px 25px 8px grey;
+   margin: auto;
+   border-radius: 20px;
+   background: transparent;
+}
+
+.patrthree .subjects .divone img{
+    max-width: 580px;
+    max-height: 300px;
+    object-fit: cover;
+    margin-top: 12px;
+}
+.patrthree .subjects .divone video{
+    max-width: 580px;
+    max-height: 300px;
+    object-fit: cover;
+    margin-top: 12px;
+}
+.patrthree .subjects .divone h3{
+    font-size: 37px;
+    font-weight: bold;
+    padding: 0;
+    margin: auto;
+    width: 80%;
+    word-wrap: break-word;
+    
+    
+}
+
+.patrthree .subjects .divone button{
+    width: 50%;
+    height: 40px;
+    margin: 20px 5% 20px 5%;
+    background: transparent;
+    border: 2px solid black;
+    border-radius: 5px;
+    color: rgb(0, 0, 0);
+    font-size: 17px;
+    transition: .3s ease-in-out;
+}
+.patrthree .subjects .divone button:hover{
+    background-color: black;
+    color: white;
+}
+
+
+.partfour{
+    width: 100%;
+    height: auto;
+}
+.partfour .heading{
+    width: 100%;
+    height: auto;
+    margin-top: 150px;
+}
+
+.partfour .heading h3{
+    text-align: center;
+    font-size: 50px;
+    margin-bottom: -30px;
+    margin-top: 220px;
+}
+
+.partfour .body{
+    width: 60%;
+    height: 280px;
+    margin: 10% 20% 10% 20%;
+    text-align: center;
+    box-shadow: 2px 5px 8px 0px;
+    border-radius: 20px;
+}
+
+.partfour .body h3 span{
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.partfour .body h3{
+    font-size: 27px;
+    
+}
