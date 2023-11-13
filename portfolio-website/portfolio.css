@@ -1,0 +1,478 @@
+/* .partone{
+    display: flex;
+     width: 95%;
+      height: auto;
+      margin: 100px auto 200px auto;
+    
+}old */
+/* 
+body{
+    background: linear-gradient(90deg, #50adfc, transparent);
+} */
+
+.partone{
+    display: flex;
+    width: 1230px;
+    height: auto;
+    background: white;
+    margin: 100px auto 200px auto;
+    border-radius: 30px;
+    padding: 120px 0;
+}
+
+.partone .partone-one{
+    width: 50%; 
+    height: auto;
+    display: list-item;
+    text-align: left;
+}
+.partone .partone-one .class{
+    
+    width: 80%;
+    margin-left: 20%;
+}
+
+.partone .partone-one .class p{
+    font-size: 28px;
+    font-family: system-ui;
+}
+
+.partone .partone-one .class h3{
+    font-size: 40px;
+    color: rgb(77, 77, 190);
+    margin: 0px;
+}
+
+.partone .partone-one .class h3 span{
+    color: black;
+}
+
+.partone .partone-one .class h4{
+    font-size: 55px;
+    margin: 0px;
+    color: rgb(77, 77, 190);
+}
+
+.partone .partone-one .class h4 span{
+    font-size: 30px;
+    color: rgb(0, 0, 0);
+    
+}
+.partone .partone-one .class button{
+    width: 250px;
+    height: 48px;
+    border-radius: 23px;
+    background-color: orangered;
+    margin-top: 30px;
+    color: white;
+}
+
+.partone .partone-two{
+    width: 50%; 
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+}
+.partone .partone-two img{
+    width: 60%;
+    height: auto;
+    border-radius: 50%;
+    
+}
+
+@media (max-width: 700px) {
+    .partone{
+        display: grid;
+         width: 100%;
+          height: auto;
+    }
+    .partone .partone-one{
+        width: 100%; 
+        height: auto;
+    }
+    .partone .partone-one .class{
+        padding-top: 0;
+        width: 100%;
+        
+    }
+    .partone .partone-two{
+        width: 100%; 
+        height: auto;    
+    }
+}
+
+
+
+.parttwo{
+    width: 100%;
+    height: auto;
+}
+
+.parttwo .heading{
+    width: 100%;
+    height: auto;
+    text-align: center;
+}
+
+.parttwo .heading h3{
+    font-size: 60px;
+}
+
+.parttwo .subject{
+    width: 90%;
+    height: auto;
+    margin: auto;
+   
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.parttwo .subject .box{
+    width: 25%;
+    height: auto;
+    box-shadow: 3px 4px 9px 0px;
+    text-align: center;
+    border-radius: 20px;
+    display: none;
+    margin: 20px 4%;
+}
+.parttwo .subject .box:nth-child(1),
+.parttwo .subject .box:nth-child(2),
+.parttwo .subject .box:nth-child(3){
+    display: inline-block;
+}
+
+.parttwo .subject .box h2{
+    padding-top: 10px;
+    font-size: 25px;
+}
+
+.parttwo .subject .box .progrssline {
+    width: 90%;
+    height: 14px;
+    border-radius: 10px;
+    background-color: #f0f0f0;
+    margin: 40px auto;
+    margin-top: 10px;
+    position: relative;
+}
+
+.parttwo .subject .box .progrssline span {
+    background-color: rgb(77, 77, 190);
+    width: 80%;
+    height: 100%;
+    border-radius: 20px;
+    position: absolute;
+    left: 0;
+    
+}
+ .button{
+    width: 100%;
+    height: auto;
+    text-align: center;
+    margin: 50px auto;
+}
+#load-more {
+    
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+    display: inline-block;
+    border-radius: 8px;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    cursor: pointer;
+    padding: 20px;
+
+}
+
+
+.patrthree{
+    width: 100%;
+    height: auto;
+}
+
+.patrthree .heading{
+    width: 100%;
+    height: auto;
+    margin-top: 200px;
+}
+
+.patrthree .heading h3{
+    text-align: center;
+    font-size: 50px;
+    color: white;
+}
+
+.patrthree .subjects {
+    width: 90%;
+    height: auto;
+    margin: 5%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.patrthree .subjects .divone{
+   width: 45% ;
+   height: auto;
+   text-align: center;
+   box-shadow: 6px 6px 25px 8px grey;
+   margin: 40px auto;
+   border-radius: 20px;
+   background: transparent;
+}
+
+.patrthree .subjects .divone img{
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    margin-top: 12px;
+}
+.patrthree .subjects .divone video{
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    margin-top: 12px;
+}
+.patrthree .subjects .divone h3{
+    font-size: 37px;
+    font-weight: bold;
+    padding: 0;
+    margin: auto;
+    width: 80%;
+    word-wrap: break-word;
+    
+    
+}
+
+.patrthree .subjects .divone button{
+    width: 50%;
+    height: 40px;
+    margin: 20px 5% 20px 5%;
+    background: transparent;
+    border: 2px solid black;
+    border-radius: 5px;
+    color: rgb(0, 0, 0);
+    font-size: 17px;
+    transition: .3s ease-in-out;
+}
+.patrthree .subjects .divone button:hover{
+    background-color: black;
+    color: white;
+}
+
+
+.partfour{
+    width: 1230px;
+    height: auto;
+    margin: 10px auto;
+}
+.partfour .heading{
+    width: 100%;
+    height: auto;
+    margin-top: 150px;
+}
+
+.partfour .heading h3{
+    text-align: center;
+    font-size: 50px;
+    margin-bottom: -60px;
+    margin-top: 220px;
+    color: white;
+}
+
+.partfour .body{
+    width: 60%;
+    height: 280px;
+    margin: 10% 20% 10% 20%;
+    text-align: center;
+    box-shadow: 2px 5px 8px 0px;
+    border-radius: 20px;
+    background-color: white;
+}
+
+.partfour .body h3 span{
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.partfour .body h3{
+    font-size: 27px;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* 
+new addition */
+
+
+ .gallery-div{
+    width: 1230px;
+    height: auto;
+    margin: 0 auto 250px auto;
+
+}
+.gallery-div .heading{
+    width: 100%;
+    height: auto;
+    padding: 20px auto;
+    margin: 60px auto;
+}
+
+.gallery-div .heading h3{
+    font-size: 50px;
+    font-weight: bold;
+    
+    text-align: center;
+    color: white;
+}
+
+
+ 
+.gallery-div .show-gallery-js {
+    width: 100%;
+    height: auto;
+    border: 2px solid black;
+    padding: 15px 5px;
+    background-color: white;
+    border-radius: 20px;
+}
+.gallery-div .show-gallery-js .container{
+    width: 100%;
+    height: 80vh;
+    /* background: rgb(58, 58, 58);  */
+     display: flex;
+    justify-content: center;
+}
+.gallery-div .show-gallery-js .container img{
+    height: 100%;
+    width: auto;
+}
+.gallery-div .show-gallery-js .thumbnail {
+    width: 80%;
+    height: 20vh;
+    display: flex;
+    justify-content: center;
+    padding: 10px 0;
+    overflow-x: scroll;
+    margin: 5px auto;
+  }
+  
+  .gallery-div .show-gallery-js .thumbnail::-webkit-scrollbar {
+    width: 4px; /* Set the width of the scrollbar */
+  }
+  
+  .gallery-div .show-gallery-js .thumbnail::-webkit-scrollbar-thumb {
+    background: #525252; /* Set the background color of the thumb */
+    border-radius: 6px; /* Add rounded corners to the thumb */
+  }
+  
+  .gallery-div .show-gallery-js .thumbnail::-webkit-scrollbar-track {
+    background: #ddd; /* Set the background color of the track */
+  }
+  
+    
+    
+    
+
+.gallery-div .show-gallery-js .thumbnail img{
+    width: auto;
+    height: auto;
+    margin: 0px 2px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.hello{
+
+    position: fixed;
+    bottom: 0 ;
+    right: 0px;
+    width: 100%;
+    height: auto;
+    z-index: -3;
+    background-blend-mode: darken;
+}
+
+
+
+
+
+
+.heading-skills{
+    width: 100%;
+    height: 70px;
+    text-align: center;
+    color: white;
+    margin: 40px auto;
+}
+.heading-skills h3{
+    color: white;
+    font-weight: bold;
+    font-size: 45px;
+}
+
+.skill-div{
+    width: 1230px;
+    height: auto;
+    padding: 10px;
+    border-radius: 30px;
+    margin: 10px auto;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 40px;
+
+}
+.skill-div .line{
+    width: 2px;
+    rotate: 180deg;
+    background-color: rgb(0 0 0);
+}
+.skill-div .row{
+    width: 49%;
+    height: auto;
+    padding-left: 50px;
+}
+.skill-div .row h4{
+    font-size: 35px;
+    font-weight: bold;
+    color: rgb(0, 0, 73);
+}
+
+.skill-div .row ul li{
+    font-size: 27px;
+    word-wrap: break-word;
+}
+
+
+
+
+
+
