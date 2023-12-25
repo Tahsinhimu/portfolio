@@ -265,6 +265,7 @@ new addition */
     height: auto;
     z-index: -3;
     background-blend-mode: darken;
+    display: none;
 }
 
 
