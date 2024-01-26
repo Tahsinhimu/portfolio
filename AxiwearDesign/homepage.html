@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+    <link rel="stylesheet" href="css/homepage.css" />
+    <title>homepage</title>
+  </head>
+  <body>
+    <div class="heading-parent-div">
+      <div class="heading-content">
+        <h3>AXIWEAR</h3>
+        <form action="">
+          <input type="search" placeholder="Search" />
+          <button><i class="fa-solid fa-magnifying-glass"></i></button>
+        </form>
+        <div class="icons-div-header">
+          <div class="cart-count-div">
+            <i class="fa-solid fa-cart-shopping" onclick="opencart()"></i>
+            <p>.</p>
+          </div>
+          <i class="fa-solid fa-bars" onclick="openNav()"></i>
+        </div>
+      </div>
+    </div>
+
+    <!-- heading -->
+
+    <div class="navbar-parent-div" id="nav">
+      <i class="fa-solid fa-x nav-close" onclick="navclose()"></i>
+      <a href="">Home</a>
+      <a href="">Products</a>
+      <a href="">Contact Us</a>
+      <a href="">Deliver partners</a>
+      <a href="">Your Product Status</a>
+      <a href="">Extras</a>
+    </div>
+
+    <!-- cart -->
+    <div class="cart-parent-div" id="cart">
+      <div class="cart-heading">
+        <h3>CART</h3>
+        <i class="fa-solid fa-x" onclick="closecart()"></i>
+      </div>
+      <div class="cart-content">
+        <div class="heading">
+          <h3>Added Items:</h3>
+        </div>
+        <div class="box">
+          <img src="images/boxes-img-1.png" alt="" />
+          <div class="texts">
+            <h3>name</h3>
+            <p>Price:790tk.</p>
+            <p>Size:S</p>
+          </div>
+          <div class="edit-div">
+            <i class="fa-solid fa-trash"></i>
+          </div>
+        </div>
+      </div>
+      <div class="subtotal-div">
+        <h3>Subtotal:</h3>
+        <p>1090tk.</p>
+      </div>
+      <div class="checkout-div">
+        <button>CHECKOUT</button>
+      </div>
+    </div>
+
+    <!-- cart -->
+
+    <div class="products-parent-div">
+      <div class="products-heading">
+        <div class="drop-category">
+          <h3>Category:</h3>
+          <form action="">
+            <select name="" id="" value="" aria-placeholder="category">
+              <option value="">Men's clothing</option>
+              <option value="">Women's clothing</option>
+              <option value="">kid's clothing</option>
+            </select>
+          </form>
+        </div>
+        <button class="last-button">
+          Filter<i class="fa-solid fa-sort"></i>
+        </button>
+      </div>
+
+      <div class="products-content">
+        <a href="">
+          <div class="box">
+            <div class="products-hover-image">
+              <img class="hover-img-for" src="images/boxes-img-1.png" alt="" />
+              <img src="images/boxes-img-4.png" alt="" />
+            </div>
+            <h3>Product Name</h3>
+            <p>899tk.</p>
+          </div>
+        </a>
+        <a href="">
+          <div class="box">
+            <div class="products-hover-image">
+              <img class="hover-img-for" src="images/boxes-img-3.png" alt="" />
+              <img src="images/boxes-img-2.png" alt="" />
+            </div>
+            <h3>Product Name</h3>
+            <p>899tk.</p>
+          </div>
+        </a>
+        <a href="">
+          <div class="box">
+            <div class="products-hover-image">
+              <img class="hover-img-for" src="images/boxes-img-4.png" alt="" />
+              <img src="images/boxes-img-2.png" alt="" />
+            </div>
+            <h3>Product Name</h3>
+            <p>899tk.</p>
+          </div>
+        </a>
+        <a href="">
+          <div class="box">
+            <div class="products-hover-image">
+              <img class="hover-img-for" src="images/boxes-img-2.png" alt="" />
+              <img src="images/boxes-img-1.png" alt="" />
+            </div>
+            <h3>Product Name</h3>
+            <p>899tk.</p>
+          </div>
+        </a>
+        <a href="">
+          <div class="box">
+            <div class="products-hover-image">
+              <img class="hover-img-for" src="images/boxes-img-1.png" alt="" />
+              <img src="images/boxes-img-2.png" alt="" />
+            </div>
+            <h3>Product Name</h3>
+            <p>899tk.</p>
+          </div>
+        </a>
+        <a href="">
+          <div class="box">
+            <div class="products-hover-image">
+              <img class="hover-img-for" src="images/boxes-img-1.png" alt="" />
+              <img src="images/boxes-img-2.png" alt="" />
+            </div>
+            <h3>Product Name</h3>
+            <p>899tk.</p>
+          </div>
+        </a>
+        <a href="">
+          <div class="box">
+            <div class="products-hover-image">
+              <img class="hover-img-for" src="images/boxes-img-1.png" alt="" />
+              <img src="images/boxes-img-2.png" alt="" />
+            </div>
+            <h3>Product Name</h3>
+            <p>899tk.</p>
+          </div>
+        </a>
+        <a href="">
+          <div class="box">
+            <div class="products-hover-image">
+              <img class="hover-img-for" src="images/boxes-img-1.png" alt="" />
+              <img src="images/boxes-img-2.png" alt="" />
+            </div>
+            <h3>Product Name</h3>
+            <p>899tk.</p>
+          </div>
+        </a>
+      </div>
+    </div>
+
+    <!-- products -->
+
+    <div class="footer-parent-div">
+      <div class="footer-content-div">
+        <div class="logo">
+          <h3>LOGO</h3>
+          <p>small details and taglines will be displayed here</p>
+        </div>
+        <div class="pages-links">
+          <a href="">About us</a>
+          <a href="">Products</a>
+          <a href="">Ratings</a>
+          <a href="">Upcomings</a>
+        </div>
+        <div class="pages-links">
+          <a href="">Adress:Mirpur,Dhaka,Bangladesh</a>
+          <a href="">Contact: +880-1634331358.</a>
+        </div>
+        <div class="social-media-links">
+          <a href=""><i class="fa-brands fa-facebook"></i></a>
+          <a href=""><i class="fa-brands fa-youtube"></i></a>
+          <a href=""><i class="fa-brands fa-instagram"></i></a>
+        </div>
+      </div>
+      <div class="copy-right">
+        <h3>all right reserved by @Axiwear.</h3>
+      </div>
+    </div>
+  </body>
+</html>
+
+<script>
+  var cart = document.getElementById("cart");
+  function opencart() {
+    cart.style.display = "flow";
+    document.body.style.overflow = "hidden";
+  }
+  function closecart() {
+    cart.style.display = "none";
+    document.body.style.overflow = "";
+  }
+
+  //   navbar
+  var nav = document.getElementById("nav");
+  function openNav() {
+    nav.style.display = "grid";
+    document.body.style.overflow = "hidden";
+  }
+  function navclose() {
+    nav.style.display = "none";
+    document.body.style.overflow = "";
+  }
+</script>
