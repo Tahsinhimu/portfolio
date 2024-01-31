@@ -571,6 +571,12 @@
   opacity: 0;
   transition: 0.8s ease-in-out;
 }
+.products-parent-div .products-content a .box h3 {
+  font-size: 1.7vw;
+}
+.products-parent-div .products-content a .box p {
+  font-size: 1.7vw;
+}
 
 @media only screen and (max-width: 650px) {
   .products-parent-div {
@@ -633,6 +639,13 @@
   .hover-img-for:hover {
     opacity: 0;
     transition: 0.8s ease-in-out;
+  }
+  .products-parent-div .products-content a .box h3 {
+    font-size: 3vw;
+  }
+  .products-parent-div .products-content a .box p {
+    font-size: 3vw;
+    margin-top: 1vw;
   }
 }
 
