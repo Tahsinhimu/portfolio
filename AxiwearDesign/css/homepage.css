@@ -642,10 +642,10 @@
     transition: 0.8s ease-in-out;
   }
   .products-parent-div .products-content a .box h3 {
-    font-size: 5.3vw;
+    font-size: 4.9vw;
   }
   .products-parent-div .products-content a .box p {
-    font-size: 5.3vw;
+    font-size: 4.9vw;
     margin-top: 1vw;
   }
 }
